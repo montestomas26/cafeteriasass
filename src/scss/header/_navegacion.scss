@@ -1,0 +1,17 @@
+.nav-principal{
+    display: flex;
+    gap: 2rem;
+
+    a {
+        color: $blanco;
+        font-size: 2rem;
+        text-transform: uppercase;
+
+        &:hover{
+            color: $secundario;
+        }
+        &.activo {
+            color: $secundario;
+        }
+    }
+}

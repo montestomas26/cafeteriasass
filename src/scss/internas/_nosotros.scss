@@ -1,0 +1,27 @@
+.nosotros {
+    text-align: center;
+
+    p {
+        line-height: 2;
+    }
+}
+
+.iconos {
+    margin-top: 5rem;
+
+    .listado-iconos {
+        display: flex;
+        justify-content: space-between;
+
+        .icono {
+            text-align: center;
+
+            p {
+                color: $secundario;
+                font-family: $fuenteCursiva;
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
